@@ -7,7 +7,7 @@
 /*}*/
 
 body {
-    background-color: #99ffcc;
+    background-color: #00cc63;
     /*you could add more properties to change right in here, no need to call body again.*/
 }
 
@@ -15,6 +15,7 @@ body {
     width: 80%;
     margin: auto;
     border-bottom: 3px solid black;
+    margin-bottom: 30px;
 }
 
 #title h1{
@@ -22,8 +23,103 @@ body {
     font-family: 'Concert One', cursive;
 }
 
+.profile-pic {
+    width: 70%;
+    position: relative;
+    left: 330px;
+    margin-bottom: 30px;
+}
+
+.text-body {
+    background-color: #b3ffd7;
+    width: 80%;
+    margin: auto;
+    -webkit-box-shadow: 5px 6px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 6px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 6px 6px 0px rgba(0,0,0,0.75);
+    padding: 10px 15px;
+}
+
 #bio {
     width: 70%;
     margin: auto;
     font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25px;
+    text-indent: 60px;
+}
+
+#bio h3 {
+    text-indent: 0px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#specialSkills {
+    width: 70%;
+    margin: auto;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25px;
+}
+
+#specialSkills h3 {
+    text-indent: 0px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin-top: 30px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#specialSkils li {
+    list-style-type: circle;
+}
+
+#social-media h3 {
+    text-indent: 0px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin-top: 30px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#social-media ul {
+    padding: 15px;
+    width: 25%;
+    margin: auto;
+    display: flex;
+}
+
+#social-media li {
+    margin: 15px;
+    margin: auto;
+}
+
+.social-p {
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 10px;
+    width: 43%;
+    margin: auto;
+    transition: all 0.3s ease-in;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.social-p:hover {
+    background-color: #e6e600;
+    color: #d9d9d9;
+    cursor: pointer;
 }
